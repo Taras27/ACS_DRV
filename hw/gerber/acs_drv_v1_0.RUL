@@ -1,0 +1,19 @@
+DRC Rules Export File for PCB: D:\GIT\ACS_v2.1\ACS_DRV\hw\pcb\acs_drv_v1_0.PcbDoc
+RuleKind=Clearance|RuleName=Clearance_ls_el|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance_ls_pol|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance_ls_az|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance_rs485_az|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance_rs485_el|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance_rs485_res|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance_rs485_pol|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance_can|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance_can_res|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance_vdd_mcu|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance_usb|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance_vdd|Scope=Board|Minimum=15.75
+RuleKind=Clearance|RuleName=Clearance_vin|Scope=Board|Minimum=19.69
+RuleKind=Clearance|RuleName=Clearance_diff|Scope=Board|Minimum=15.75
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Width|RuleName=Width|Scope=Board|Minimum=7.87
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.87
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
