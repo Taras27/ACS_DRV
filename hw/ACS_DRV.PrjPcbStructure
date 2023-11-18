@@ -1,4 +1,5 @@
 Record=TopLevelDocument|FileName=main.SchDoc
+Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=boot_btn|SchDesignator=boot_btn|FileName=boot_btn.SchDoc|SymbolType=Normal|RawFileName=boot_btn.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=can_res|SchDesignator=can_res|FileName=can.SchDoc|SymbolType=Normal|RawFileName=can.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=connection|SchDesignator=connection|FileName=can.SchDoc|SymbolType=Normal|RawFileName=can.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
 Record=SheetSymbol|SourceDocument=main.SchDoc|Designator=drv_az|SchDesignator=drv_az|FileName=rs485.SchDoc|SymbolType=Normal|RawFileName=rs485.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
