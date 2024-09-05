@@ -1,0 +1,2 @@
+../User/src/process.c:11:6:PROCESS_Init	0	static
+../User/src/process.c:16:6:PROCESS_Main	0	static
