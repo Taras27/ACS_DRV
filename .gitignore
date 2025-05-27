@@ -5,7 +5,10 @@ hw/Project Logs for ACS_DRV/
 hw/lib/
 hw/pcb/History/
 hw/pcb/__Previews/
+fw/DRV_1_0/.settings/
 
 
 
 *.metadata
+*.o
+*.d

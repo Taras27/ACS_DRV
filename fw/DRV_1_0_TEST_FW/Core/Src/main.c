@@ -150,7 +150,7 @@ int main(void)
 			HAL_UART_Transmit(uart_list[i], (uint8_t*) uart_data, length, 100);
 			HAL_GPIO_WritePin(uart_cs_pin[i].port, uart_cs_pin[i].pin, GPIO_PIN_RESET);
 		}
-		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_15);
+		//HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_15);
 		HAL_Delay(100);
 
     /* USER CODE END WHILE */
