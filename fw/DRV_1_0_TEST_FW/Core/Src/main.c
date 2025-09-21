@@ -29,6 +29,7 @@
 /* USER CODE BEGIN Includes */
 #include "usbd_cdc_if.h"
 #include <stdio.h>
+#include "board_id.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -84,6 +85,7 @@ static void LS_Test(void);
   */
 int main(void)
 {
+
   /* USER CODE BEGIN 1 */
 
   /* USER CODE END 1 */
@@ -119,9 +121,10 @@ int main(void)
 	FDCAN_TxHeaderTypeDef can1TxHeader;
 
 
-	char *cdc_data = "Hello from drv board: CDC Transport!!!\r\n";
+	char *cdc_data[64];
 	char *uart_data[64];
 	uint8_t can1_data[] = { 1, 2, 3, 4, 5, 6, 7, 8 };
+	uint8_t board_id = BOARD_ID_Get();
 
 	HAL_FDCAN_Start(&hfdcan1);
 
@@ -138,10 +141,13 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
+	uint32_t cdc_str_len = sprintf((char*)cdc_data, "DRV_BOARD_ID [ 0x%02X ]: CDC \r\n", board_id);
+
 	while (1)
 	{
 		LS_Test();
-		CDC_Transmit_FS((uint8_t*)cdc_data, strlen(cdc_data));
+		CDC_Transmit_FS((uint8_t*)cdc_data, cdc_str_len);
 		HAL_FDCAN_AddMessageToTxFifoQ(&hfdcan1, &can1TxHeader, can1_data);
 		for (uint8_t i = 0; i < 4; i++)
 		{
