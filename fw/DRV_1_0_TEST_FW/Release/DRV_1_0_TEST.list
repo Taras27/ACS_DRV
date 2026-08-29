@@ -796,7 +796,7 @@ Disassembly of section .text:
  8000692:	4b10      	ldr	r3, [pc, #64]	@ (80006d4 <MX_FDCAN1_Init+0x44>)
  8000694:	2208      	movs	r2, #8
  8000696:	b510      	push	{r4, lr}
- 8000698:	210d      	movs	r1, #13
+ 8000698:	210e      	movs	r1, #14
  800069a:	6003      	str	r3, [r0, #0]
  800069c:	2300      	movs	r3, #0
  800069e:	6142      	str	r2, [r0, #20]
@@ -830,7 +830,7 @@ Disassembly of section .text:
  80006da:	4b10      	ldr	r3, [pc, #64]	@ (800071c <MX_FDCAN2_Init+0x44>)
  80006dc:	2208      	movs	r2, #8
  80006de:	b510      	push	{r4, lr}
- 80006e0:	210d      	movs	r1, #13
+ 80006e0:	210e      	movs	r1, #14
  80006e2:	6003      	str	r3, [r0, #0]
  80006e4:	2300      	movs	r3, #0
  80006e6:	6142      	str	r2, [r0, #20]
@@ -1132,7 +1132,7 @@ Disassembly of section .text:
  800097a:	46c0      	nop			@ (mov r8, r8)
  800097c:	40005800 	.word	0x40005800
  8000980:	20000278 	.word	0x20000278
- 8000984:	10707dbc 	.word	0x10707dbc
+ 8000984:	10b17db5 	.word	0x10b17db5
 
 08000988 <HAL_I2C_MspInit>:
  8000988:	b510      	push	{r4, lr}

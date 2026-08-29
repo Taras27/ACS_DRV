@@ -888,9 +888,9 @@ void MX_FDCAN1_Init(void)
  80006e8:	4b14      	ldr	r3, [pc, #80]	@ (800073c <MX_FDCAN1_Init+0x88>)
  80006ea:	2201      	movs	r2, #1
  80006ec:	619a      	str	r2, [r3, #24]
-  hfdcan1.Init.NominalTimeSeg1 = 13;
+  hfdcan1.Init.NominalTimeSeg1 = 14;
  80006ee:	4b13      	ldr	r3, [pc, #76]	@ (800073c <MX_FDCAN1_Init+0x88>)
- 80006f0:	220d      	movs	r2, #13
+ 80006f0:	220e      	movs	r2, #14
  80006f2:	61da      	str	r2, [r3, #28]
   hfdcan1.Init.NominalTimeSeg2 = 1;
  80006f4:	4b11      	ldr	r3, [pc, #68]	@ (800073c <MX_FDCAN1_Init+0x88>)
@@ -993,9 +993,9 @@ void MX_FDCAN2_Init(void)
  8000778:	4b14      	ldr	r3, [pc, #80]	@ (80007cc <MX_FDCAN2_Init+0x88>)
  800077a:	2201      	movs	r2, #1
  800077c:	619a      	str	r2, [r3, #24]
-  hfdcan2.Init.NominalTimeSeg1 = 13;
+  hfdcan2.Init.NominalTimeSeg1 = 14;
  800077e:	4b13      	ldr	r3, [pc, #76]	@ (80007cc <MX_FDCAN2_Init+0x88>)
- 8000780:	220d      	movs	r2, #13
+ 8000780:	220e      	movs	r2, #14
  8000782:	61da      	str	r2, [r3, #28]
   hfdcan2.Init.NominalTimeSeg2 = 1;
  8000784:	4b11      	ldr	r3, [pc, #68]	@ (80007cc <MX_FDCAN2_Init+0x88>)
@@ -1577,7 +1577,7 @@ void MX_I2C2_Init(void)
  8000b00:	4b1b      	ldr	r3, [pc, #108]	@ (8000b70 <MX_I2C2_Init+0x74>)
  8000b02:	4a1c      	ldr	r2, [pc, #112]	@ (8000b74 <MX_I2C2_Init+0x78>)
  8000b04:	601a      	str	r2, [r3, #0]
-  hi2c2.Init.Timing = 0x10707DBC;
+  hi2c2.Init.Timing = 0x10B17DB5;
  8000b06:	4b1a      	ldr	r3, [pc, #104]	@ (8000b70 <MX_I2C2_Init+0x74>)
  8000b08:	4a1b      	ldr	r2, [pc, #108]	@ (8000b78 <MX_I2C2_Init+0x7c>)
  8000b0a:	605a      	str	r2, [r3, #4]
@@ -1657,7 +1657,7 @@ void MX_I2C2_Init(void)
  8000b6e:	bd80      	pop	{r7, pc}
  8000b70:	2000027c 	.word	0x2000027c
  8000b74:	40005800 	.word	0x40005800
- 8000b78:	10707dbc 	.word	0x10707dbc
+ 8000b78:	10b17db5 	.word	0x10b17db5
 
 08000b7c <HAL_I2C_MspInit>:
 
