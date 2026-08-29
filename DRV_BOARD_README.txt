@@ -1,0 +1,13 @@
+
+
+	USB - RS485:
+		COM12
+		
+	USB-CAN:
+		COM13
+		
+	STLINK-COM-POTR:
+		COM5
+		
+	DRV_BOARD-USB:
+		COM4
